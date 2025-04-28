@@ -3,7 +3,7 @@ name: "build"
 on:
   pull_request:
   schedule:
-    - cron: "0 0 * * *" # Run tests everyday 
+    - cron: "15 16 * * 1" # Run tests everyday 
 
 jobs:
   build:
