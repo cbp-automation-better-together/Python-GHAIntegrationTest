@@ -1,6 +1,7 @@
 name: "build"
 
 on:
+  workflow_dispatch:
   pull_request:
   schedule:
     - cron: "0 10 * * 1" # Run tests everyday
